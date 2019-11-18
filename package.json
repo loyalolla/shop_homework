@@ -1,0 +1,24 @@
+{
+  "name": "hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run scss:watch",
+    "scss:compile": "node-sass ./css/main.scss ./css/main.css",
+    "scss:watch": "npm run scss:compile -- -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loyalolla/shop_homework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loyalolla/shop_homework/issues"
+  },
+  "homepage": "https://github.com/loyalolla/shop_homework#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
